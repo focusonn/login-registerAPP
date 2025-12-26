@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    @apply border-gray-800;
+  }
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .container-responsive {
+    @apply w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16;
+  }
+  
+  .text-responsive-xs {
+    @apply text-[8px] sm:text-[9px] md:text-[10px];
+  }
+  
+  .text-responsive-sm {
+    @apply text-[10px] sm:text-xs md:text-sm;
+  }
+  
+  .text-responsive-base {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+  
+  .text-responsive-lg {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+  
+  .text-responsive-xl {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
+  }
+  
+  .text-responsive-2xl {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl;
+  }
+  
+  .text-responsive-3xl {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl;
+  }
+  
+  .spacing-responsive-sm {
+    @apply space-y-4 sm:space-y-5 md:space-y-6;
+  }
+  
+  .spacing-responsive-md {
+    @apply space-y-6 sm:space-y-8 md:space-y-10;
+  }
+  
+  .spacing-responsive-lg {
+    @apply space-y-8 sm:space-y-10 md:space-y-12 lg:space-y-14;
+  }
+  
+  .padding-responsive {
+    @apply p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12;
+  }
+  
+  .padding-responsive-lg {
+    @apply p-6 sm:p-8 md:p-10 lg:p-14 xl:p-16;
+  }
+  
+  .rounded-responsive {
+    @apply rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-[3rem];
+  }
+  
+  .height-responsive-input {
+    @apply h-10 sm:h-12 md:h-14 lg:h-16;
+  }
+  
+  .height-responsive-button {
+    @apply h-10 sm:h-12 md:h-14 lg:h-16;
+  }
+  
+
+  .tracking-responsive-tight {
+    @apply tracking-[0.2em] sm:tracking-[0.25em] md:tracking-[0.3em];
+  }
+  
+  .tracking-responsive-wide {
+    @apply tracking-[0.3em] sm:tracking-[0.35em] md:tracking-[0.4em];
+  }
+}
